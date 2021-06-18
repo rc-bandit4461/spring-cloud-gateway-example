@@ -8,4 +8,5 @@
 1. start discovery-service (default port 8761)
 2. start gateway-service (default port 8888)
 3. start first-service (port 8000)
-To test load balacing, create another instance, create another instance with `.\mvnw spring-boot:run -Dspring-boot.run.arguments='--server.port=<port>'`
+
+To test load balacing, create another instance with `.\mvnw spring-boot:run -Dspring-boot.run.arguments='--server.port=<port>'`
