@@ -4,4 +4,5 @@
 2. start gateway-service
 3. start first-service
 # loadbalancing
-to test loadbalacing, start another instance of first-service by changing the port using  `.\mvnw spring-boot:run -Dspring-boot.run.arguments='--server.port=<port>'` 
+to test loadbalacing, start another instance of first-service by changing the port using  
+`.\mvnw spring-boot:run -Dspring-boot.run.arguments='--server.port=<port>'` 
