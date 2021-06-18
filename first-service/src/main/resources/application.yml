@@ -1,5 +1,12 @@
+keycloak.realm: example
 server.port: 8000
-spring.application.name: first-service
+spring:
+  application.name: first-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/auth/realms/${keycloak.realm}
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 30
