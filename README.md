@@ -1,4 +1,4 @@
-# spring-cloud-gateway-example
+# Spring Cloud Gateway Template with Eureka with a REST service
 # Steps:
 1. start discovery-service (eureka)
 2. start gateway-service
